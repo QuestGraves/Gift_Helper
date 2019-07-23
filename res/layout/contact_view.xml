@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- comments here -->
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+				 xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+				android:id="@+id/contact_display"
+	 			android:layout_width="match_parent"
+				android:layout_height="wrap_content" >
+				
+			<TableLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:stretchColumns="1"
+				android:textStyle="bold">
+				
+			    <ImageView />
+			    
+				 <com.google.ads.AdView android:id="@+id/adViewDisplay_1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a14df1679786f60"
+                         ads:adSize="BANNER"  
+                         />
+				<TableRow android:layout_marginBottom="5dp">
+					<TextView android:text="Name:" android:textStyle="bold" android:textSize="21sp" android:textColor="@color/IcsBlueDark" />
+					<TextView android:id="@+id/name_display" android:textStyle="bold" android:textSize="22sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow      android:layout_marginBottom="3dp">
+					<TextView  android:text="Birthday= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark" />
+					<TextView  android:id="@+id/birthday_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow      android:layout_marginBottom="3dp">
+					<TextView  android:text="Important Dates=" android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark" />
+					<TextView  android:id="@+id/important_dates_display" android:textSize="20sp"  android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="5dp">
+					<TextView android:text="Relation= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView android:id="@+id/type_display"  android:textSize="20sp"  android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				
+					<View
+        					android:layout_height="2dip"
+      				  	    android:background="#FF909090" />
+      				  	    
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Favorites:" android:textStyle="bold"  android:textSize="22sp" android:textColor="@color/IcsBlueDark"/>
+					<TextView />
+				</TableRow>
+				
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Colors= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView android:id="@+id/color_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Musicians= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/music_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Songs= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/song_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Movies= "  android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView android:id="@+id/movie_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Books= "  android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView android:id="@+id/books_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Foods= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView android:id="@+id/foods_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Restaurants= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark" />
+					<TextView android:id="@+id/restaurant_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Animals= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView android:id="@+id/animal_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Pet Type= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView android:id="@+id/pet_type_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Words/Phrases= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/word_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/> 
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Tv Shows= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView android:id="@+id/tv_shows_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView  android:text="Historic Figures= " android:textSize="21sp" android:textStyle="bold"  android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/hist_figs_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Hobbies= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/hobbies_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Collectibles= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/collectibles_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				
+				
+      		
+                <View
+        					android:layout_height="2dip"
+      				  	    android:background="#FF909090" />
+      				  	    
+				<TableRow >
+					<TextView android:text="Clothing" android:textStyle="bold"  android:textSize="22sp" android:textColor="@color/IcsBlueDark"/>
+					<TextView />
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Sizes:" android:textStyle="bold"  android:textSize="22sp" android:textColor="@color/IcsBlueDark"/>
+					<TextView />
+				</TableRow>
+				<TableRow      android:layout_marginBottom="3dp">
+					<TextView  android:text="Coat Size= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/coat_size_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow      android:layout_marginBottom="3dp">
+					<TextView  android:text="Shirt Size= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/shirt_size_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Pant Size= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/pant_size_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Sock Type= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/sock_type_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Shoe Size= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/shoe_size_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Ring Sizes= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/ring_sizes_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Undergarments= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/undergarment_sizes_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Other= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark" />
+					<TextView  android:id="@+id/other_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				  		<com.google.ads.AdView android:id="@+id/adViewDisplay_2"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a14df1679786f60"
+                         ads:adSize="BANNER"  
+                         />
+	
+                <View
+        					android:layout_height="2dip"
+      				  	    android:background="#FF909090" />
+      				  	    
+				<TableRow >
+					<TextView android:text="Physical" android:textStyle="bold"  android:textSize="22sp" android:textColor="@color/IcsBlueDark"/>
+					<TextView />
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Attributes:" android:textStyle="bold"  android:textSize="22sp" android:textColor="@color/IcsBlueDark"/>
+					<TextView />
+				</TableRow>
+				
+
+        					
+        		<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Height= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/height_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Weight= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/weight_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Hair Color= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/hair_color_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Eye Color= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/eye_color_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Heritage= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/heritage_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Personality Traits= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/personality_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				
+				 <View
+        					android:layout_height="2dip"
+      				  	    android:background="#FF909090" />
+				 	<TableRow >
+					<TextView android:text="Miscellaneous:" android:textStyle="bold"  android:textSize="22sp" android:textColor="@color/IcsBlueDark"/>
+					<TextView />
+				</TableRow>
+				 
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Openly Wants= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/openly_wants_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+        		<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Likes= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/likes_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>			
+        		<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Dislikes= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/dislikes_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				
+				<TableRow android:layout_marginBottom="3dp">
+					<TextView android:text="Notes= " android:textSize="21sp" android:textStyle="bold" android:textColor="@color/IcsBlueDark"/>
+					<TextView  android:id="@+id/notes_display" android:textSize="20sp" android:layout_weight="1" android:textColor="@color/IcsBlue"/>
+				</TableRow>
+				
+				<com.google.ads.AdView android:id="@+id/adViewDisplay_3"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a14df1679786f60"
+                         ads:adSize="BANNER"  
+                         />
+			</TableLayout>
+	</ScrollView>

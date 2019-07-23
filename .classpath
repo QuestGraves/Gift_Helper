@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="F:/Users/Quest/Favorites/Downloads/googleadmobadssdkandroid (2013_03_11 00_41_48 UTC) (2013_06_10 13_18_44 UTC)/GoogleAdMobAdsSdkAndroid-6.1.0/GoogleAdMobAdsSdk-6.1.0.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

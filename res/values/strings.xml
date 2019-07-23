@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gift Helper</string>
+    <string name="details">Details</string>
+    <string name="delete">Delete</string>
+    <string name="portal_title">Home</string>
+    <string name="contacts">Contacts</string>
+    <string name="add">Add</string>
+    <string name="exit">Exit</string>
+    <string name="ideas">Gift Ideas</string>
+    <string name="contact">Contact</string>
+    <string name="helpful_title">Contact Information</string>
+    
+    
+    <string name="hello_help_text"> Hello and Welcome to Gift Helper!"
+ 
+    Here are some tips on how to use
+    and get the most from this application.
+    
+    If the ads are too much, please purchase
+    the paid "pro" version of Gift Helper. You
+    will not be disappointed.
+    
+     To get started, press menu and chose
+    add to add a contact to the database.
+    fill out only as much information as
+    you can now because you can always
+    go back later and fill in those
+    fields you were unsure of.
+    
+     From the contacts list you can delete
+    a person by long pressing on their name.
+    Each screen has a menu that allows you to
+    navigate the app much easier.
+    
+     Later, when shopping for gifts for 
+    people, you will have all this great 
+    information at your finger tips.
+       
+    1)First and foremost use this to keep
+    track of information about those you
+    may purchase a gift for, especially 
+    that stuff that is hard to remember or
+    stuff that may seem a little odd at the 
+    time of filling in, but will be a 
+    priceless bit of knowledge that will 
+    make your gift very special to some 
+    lucky person. 
+    
+    2)If you have a friend fill in all 
+    the data at once, it doesn't give any
+    hint as to what type of gift you may
+    be purchasing.
+    
+     3)Please visit my site to enjoy some good
+    Android related news, and to also leave
+    any feedback or report bugs so I can help
+    get them fixed for you if any arise.
+    www.auroraquestsoft.blogspot.com or visit
+    my Android News site for the latest in the
+    Android world! www.chicagolandroid.com 
+    -Quest Graves 
+     </string>
+    
+       <string name="hello_help_text_land" > Hello and Welcome to Gift Helper!"  
+    Here are some tips on how to use and get the most from this application:
+    
+    If the ads are too much, please purchase the paid "pro" version of Gift Helper.
+    You will not be disappointed.
+    
+     To get started, press menu and chose add to add a contact to the database. Fill
+    out only as much information as you can now because you can always
+    go back later and fill in those fields you were unsure of.
+    
+     From the contacts list you can delete a person by long pressing on their name.
+    Each screen has a menu that allows you to navigate the app much easier.
+    
+    1)First and foremost use this to keep track of information about those you may
+    purchase a gift for, especially that stuff that is hard to remember or stuff that
+    may seem like odd at the time of filling in but will be a priceless bit of 
+    knowledge that will make your gift very special to some lucky person.  
+   
+    2)If you have a friend fill in all the data at once, it doesn't give any hint as to
+    what type of gift you may
+    be purchasing.
+     
+    3)Please visit my site to enjoy some good Android related news, and to also leave
+    any feedback or report bugs so I can help get them fixed for you if any arise. 
+    www.auroraquestsoft.blogspot.com or visit my Android News site for the latest in
+    the Android world! www.chicagolandroid.com -Quest Graves 
+   </string>
+  
+</resources>

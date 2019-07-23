@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:id="@+id/menu_edit"
+		  android:title="Edit"
+		  android:icon="@drawable/ic_menu_edit"/>
+ <item android:id="@+id/menu_home"
+		  android:title="Home"
+		  android:icon="@drawable/ic_menu_home"/>
+ <item android:id="@+id/menu_add"
+		  android:title="Add New"
+		  android:icon="@drawable/ic_menu_add"/>
+ <item android:id="@+id/menu_exit_app"
+		  android:title="Exit"
+		  android:icon="@drawable/ic_menu_revert"/>
+</menu> 
+    

@@ -1,0 +1,13 @@
+Version changes from 6_1.4 - 7_1.5 
+
+1) Made install to SDCard Available
+
+2) Changed Min SDK from version 2.1 to 2.2+...another words dropped Eclair support
+
+3)Added adMob to listView
+	
+4)Formatting:
+
+	a)Removed background
+	b)Changed text color to match ICS
+	c)Completely Removed Splash Screen	

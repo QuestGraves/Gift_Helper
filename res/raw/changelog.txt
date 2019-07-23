@@ -1,0 +1,13 @@
+**(make sure to log keywords for marketing promotions!)
+
+version 1.0 release. 
+
+1.1 add AdMob functionality.
+
+1.2 extend menu on contact view screen
+
+1.3 -new backgrounds 
+	-new splash images 
+	-makes things look a bit nicer.
+	
+1.4 -fixed help_text

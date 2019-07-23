@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- comments here -->
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+				  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+				 android:layout_width="fill_parent"
+				 android:layout_height="wrap_content"
+				 >
+		<TableLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:stretchColumns="1"
+				android:textStyle="bold">
+					 <com.google.ads.AdView android:id="@+id/adViewDetail_1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a14df1679786f60"
+                         ads:adSize="BANNER"  
+                         /> 
+				<TableRow>
+					<TextView android:text="Name:" android:textStyle="bold" android:textSize="20sp" android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/name"  android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Birthday:" android:textStyle="bold"  android:textColor="@color/IcsBlue" />
+					<EditText android:id="@+id/birthday" android:inputType="date" android:layout_weight="1"/>
+				</TableRow> 
+				<TableRow>
+					<TextView android:text="Important Dates:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/importantDates" android:layout_weight="1"/>
+				</TableRow> 
+				<TableRow>
+					<TextView android:text="Type of Friend:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<RadioGroup android:id="@+id/friendType">
+						<RadioButton android:id="@+id/family" 
+									 android:text="Family"  android:textColor="@color/IcsBlue"/>
+						<RadioButton android:id="@+id/lover"
+									 android:text="Spouse / Lover"  android:textColor="@color/IcsBlue"/>			 
+						<RadioButton android:id="@+id/closeFriend"
+									 android:text="Close Friend"  android:textColor="@color/IcsBlue"/>
+						<RadioButton android:id="@+id/friend" android:checked="true" 
+									 android:text="Friend"  android:textColor="@color/IcsBlue"/>
+						<RadioButton android:id="@+id/coWorker"
+									 android:text="Co-Worker"  android:textColor="@color/IcsBlue"/>		 			 			 			 
+					</RadioGroup>
+				</TableRow>
+						
+				<View
+        					android:layout_height="2dip"
+        					android:background="#FF909090" />
+        				
+        					
+        		<TextView android:text="Favorites:" 
+        					android:textSize="20sp" 
+        					android:textStyle="bold"
+        					  android:textColor="@color/IcsBlueDark" >
+        		</TextView>
+        					
+				<TableRow > 
+					<TextView android:text="Colors:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favColor" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Musicians:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favMusician" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Songs:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favSong" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Movies:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favMovie" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Books:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favBooks" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Foods:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favFoods" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Restaurants:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favRestaurant" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Animals:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favAnimal" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Pets:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favPets" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Words/Phrases:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favWord" android:layout_weight="1" /> 
+				</TableRow>
+				<TableRow>
+					<TextView android:text="TV Shows:" android:textStyle="bold"   android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favTvShows" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Historic Figures:" android:textStyle="bold"  android:textColor="@color/IcsBlue" />
+					<EditText android:id="@+id/favHistFigs" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Hobbies:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favHobbies" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Collectibles:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/favCollectibles" android:layout_weight="1"/>
+				</TableRow>
+				
+				<View
+        					android:layout_height="2dip"
+        					android:background="#FF909090" />
+        		 <com.google.ads.AdView android:id="@+id/adViewDetail_2"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a14df1679786f60"
+                         ads:adSize="BANNER"  
+                         /> 
+        					
+				<TableRow>
+					<TextView android:text="Clothing Size:" android:textStyle="bold" android:gravity="fill_horizontal"
+					          android:textSize="20sp" android:layout_weight="1"  android:textColor="@color/IcsBlueDark"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Coat Size:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/coatSize" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Shirt Sizes:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/shirtSize" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Pant Sizes:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/pantSize" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Shoe Sizes:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/shoeSize" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Sock Type:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/sockType" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Ring Sizes:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/ringSizes" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Undergarments:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/undergarmentSize" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Other:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/other" android:layout_weight="1"/>
+				</TableRow>
+			
+					<View
+        					android:layout_height="2dip"
+        					android:background="#FF909090" />
+					<TableRow>
+					
+				<TextView android:text="Physical:" android:textStyle="bold" android:gravity="fill_horizontal"
+					          android:textSize="20sp" android:layout_weight="1"  android:textColor="@color/IcsBlueDark"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Height:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/height" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Weight:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/weight" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Hair Color:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/hairColor" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Eye Color:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/eyeColor" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Heritage:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/heritage" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Personality:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/personality" android:layout_weight="1"/>
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Openly Wants:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/openlyWants" android:layout_weight="1"/>
+				</TableRow>							
+					
+					<View
+        					android:layout_height="2dip"
+        					android:background="#FF909090" />
+        					
+        		<TextView android:text="Misc. :" android:textStyle="bold" android:gravity="fill_horizontal"
+					          android:textSize="20sp" android:layout_weight="1"   android:textColor="@color/IcsBlueDark"/>
+        		
+        		<TableRow>
+					<TextView android:text="Likes:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/likes"  android:layout_weight="1" />
+				</TableRow>			
+				<TableRow>
+					<TextView android:text="Dislikes:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/dislikes"  android:layout_weight="1" />
+				</TableRow>
+				<TableRow>
+					<TextView android:text="Notes:" android:textStyle="bold"  android:textColor="@color/IcsBlue"/>
+					<EditText android:id="@+id/notes" android:layout_weight="1"/>
+				</TableRow>
+				
+					 <com.google.ads.AdView android:id="@+id/adViewDetail_3"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a14df1679786f60"
+                         ads:adSize="BANNER"  
+                         /> 
+        					
+
+		<Button android:id="@+id/save_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Save"/>
+			</TableLayout>
+		</ScrollView>

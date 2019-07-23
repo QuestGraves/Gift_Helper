@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- comments here -->
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+               xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    			android:layout_width="fill_parent"
+			    android:layout_height="fill_parent" >
+<LinearLayout 			 android:id="@+id/adLayoutMain"    		             
+    					 android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+    
+        
+    <com.google.ads.AdView android:id="@+id/adViewGHelper_1"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="top"
+                         ads:adUnitId="a14df1679786f60"
+                         ads:adSize="BANNER"  
+                         />
+   
+      </LinearLayout>
+     <ListView                 
+				android:id="@android:id/list"
+				android:layout_width="fill_parent"
+			    android:layout_height="match_parent"
+			    android:layout_below="@id/adLayoutMain" 
+			    android:divider="@color/IcsBlue"
+			    android:dividerHeight="2sp"/>
+
+</RelativeLayout>
